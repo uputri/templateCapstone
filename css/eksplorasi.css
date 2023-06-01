@@ -2,16 +2,22 @@ section.hero {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 390px;
   background-color: var(--loading);
   background-image: url(../images/hero.jpg);
-  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-position: bottom;
   background-size: cover;
-  color: var(--secondColor);
+  color: rgb(244, 247, 201);
   text-align: center;
+  opacity: 0;
+  animation: fade_in .5s linear forwards;
+  animation-delay: 0.3s;
 }
 .hero p,
 .hero h1 {
