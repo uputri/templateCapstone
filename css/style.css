@@ -362,6 +362,7 @@ html::-webkit-scrollbar-thumb {
   padding: 1.6rem 3rem;
   border-radius: 0.5rem;
   transition: 0.35s ease;
+  border: 0.2rem solid var(--second-color);
 }
 
 .feature .box-container .box .content a:hover {
