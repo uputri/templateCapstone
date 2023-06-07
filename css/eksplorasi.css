@@ -23,8 +23,8 @@ section.hero {
 .hero h1 {
   text-shadow: 0 0 1rem black;
 }
-/* card */
 
+/* card */
 section.content {
   width: 80%;
   max-width: 1200px;

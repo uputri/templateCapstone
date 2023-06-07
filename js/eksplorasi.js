@@ -16,7 +16,6 @@ function fetchData(data) {
             </div>
           </div>
       `;
-
     container.innerHTML += card;
   });
 }

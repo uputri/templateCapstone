@@ -1,5 +1,5 @@
 :root {
-  --loading: rgb(143, 140, 140);
+  --loading: #8f8c8c;
 }
 .header {
   display: flex;
